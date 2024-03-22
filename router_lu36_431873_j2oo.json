@@ -1,0 +1,16 @@
+const reverseString = str => str.split("").reverse().join("");
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+let array = getRandomArray(); array.forEach(item => console.log(item));
+true + 36
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+false / true
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const sum = (a, b) => a + b;
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+kiwi + grape
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+true + 84,2,98,36,67,67,2,36,22,52,99,71,62,60,44,86,38,32,26,60,51,0,11,82,70,27,55,71,59,38,21,77,62,26,60,52,24,53,91,12,30,3,51,77,56,31,93,76,14,40,37,49,66,97,90,82,1,17,65,57,72,35,66
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
