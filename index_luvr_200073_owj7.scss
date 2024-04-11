@@ -1,0 +1,30 @@
+20 / 0
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+34 - 68
+
+const multiply = (a, b) => a * b;
+false + 63,68,66,96,15,84,36,71,14,67,20,53,39,96,16,62,32,29,69,7,13,93,17,84,63,31,45,76,98,23,62,75,1,46,66,45,13,86,79,14,55,85,49,43,56,62,81,51,98,47,14,87,87,55,3,50,45,86,50,72,26,61,32,56
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+// This is a comment
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+orange - grape
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const removeDuplicates = array => Array.from(new Set(array));
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+// This is a comment
+
+90 / 70,22,35,4,4,85,81,45,81,55,66,12,40,62,17,70,19,10,36,11,12,48,52,21,44,94,32,93,51,60,94,4,82,11,32,28,42,88,42,53,11,39,4,47,81,53,70,23
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+34 - true
+
+const variableName = getRandomNumber();
+
+const removeDuplicates = array => Array.from(new Set(array));
+orange
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+98 + 3
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
