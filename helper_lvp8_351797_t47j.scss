@@ -1,0 +1,65 @@
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const randomNumber = getRandomNumber();
+function addNumbers(a, b) { return a + b; }
+
+false * kiwi
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+kiwi
+
+const squareRoot = num => Math.sqrt(num);
+const greet = name => `Hello, ${name}!`;
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const removeDuplicates = array => Array.from(new Set(array));
+86,80,30,23,39,61,98,4,81,26,13,58,11,90,86,28,1,68,25,87,1,58,43,84,75,97,53,36,13,38,67,73,55,38,44,44,50,1,49,87,29,38,21,34,11,20,97,71,30,15,41,69,45,52,59,70,39,53,63,72,76,3,70,33,43,17,45,16,25,76,34,38,7,87,97,66,73,73,11,47,19,50 - 65
+const getRandomSubset = (array, size) => array.slice(0, size);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+banana
+
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+grape * true
+const variableName = getRandomNumber();
+kiwi
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+19,10,64,27,72,64,53,92,70,73,31,94,53,37,4,91,41,90,37,44,66,63,42,74,30,30,91,52,21,1,14 - banana
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const sum = (a, b) => a + b;
+const squareRoot = num => Math.sqrt(num);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+65 - 29,39,52,34,20,50,40,99,27,48,53,78,67,6,21,10,35,99,63,0,5,8,16,47,38,12,16,30,41,4,87
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+50,26,58,62,70,68,35,71,51,36,7,14,58,42,52,76,17,57,39,88,41,44,86,50,29,58,49,72,19,22,68,2,30,95,54,53,43,11,7,47,77,15,94,72,98,15,61,18,44,19,18,21,87,71 + 18
+const variableName = getRandomNumber();
+const multiply = (a, b) => a * b;
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+15 / 38,50,95,74,94,66,81,68,51,74,49,91,48,24,96,82,63,87,48,74,63,53,69,66,37,22,49,28,3,75,62,90,11,1,70,57,78,85,3,54,17,32,51,47,48,71,53,26,65,35,61,92,67,51,41,39,44,30,80,2,29
+const sum = (a, b) => a + b;
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const findSmallestNumber = numbers => Math.min(...numbers);
+function addNumbers(a, b) { return a + b; }
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const multiply = (a, b) => a * b;
+kiwi + 40
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getUniqueValues = array => [...new Set(array)];
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+apple - apple
+console.log(getRandomString());
+
+const findLargestNumber = numbers => Math.max(...numbers);
+banana
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+banana
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
